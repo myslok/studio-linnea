@@ -10,4 +10,6 @@ tags:
   - växter
   - erbjudande
 ---
+![](/img/products-grid2.jpg)
+
 En text!
