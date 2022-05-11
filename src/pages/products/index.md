@@ -82,14 +82,14 @@ pricing:
     doorstep each month. Contact us about more details and payment info.
   plans:
     - description: >
-        Behandlande Medicinsk Massage. 
+        
         Djupgående massage med syfte att hjälpa vid muskulärt problem.   
       items:
         - 30 min - 300 kr (boka ej om det är din första gång hos mig)
         - 45 min - 400 kr
         - 90 min - 700 kr
         - 120 min - 950 kr
-      plan: Small
+      plan: Behandlande Medicinsk Massage. 
       price: "50"
     - description: Great for avid drinkers, java-loving couples and bigger crowds
       items:
