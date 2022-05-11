@@ -2,9 +2,9 @@ import * as React from "react";
 import PropTypes from "prop-types";
 
 const Pricing = ({ data }) => (
-  <div className="columns">
+  <div className="columns is-multiline">
     {data.map((price) => (
-      <div key={price.plan} className="column">
+      <div key={price.plan} className="column is-6">
         <section className="section">
           <h4 className="has-text-centered has-text-weight-semibold">
             {price.plan}
