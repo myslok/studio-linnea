@@ -1,18 +1,16 @@
 ---
-templateKey: product-page
-title: Behandlingar
+templateKey: workshop-page
+title: Workshops
 image: /img/jumbotron.jpg
 heading: Massage
-path: /products
-description: Jag _erbjuder_ behandlande medicinsk massage och djupgående
-  aromamassage. OBS! Då jag studerar till certifierad medicinsk massageterapeut
-  så är det just nu elevbehandlingar med elevpriser.
+path: /workshops
+description: Workshops list
 intro:
   blurbs:
     - image: /img/coffee.png
       text: |+
         Behandlande Medicinsk Massage. 
-        Djupgående massage med syfte att hjälpa vid muskulärt problem.   
+        Djupgående massage med syfte att hjälpa vid muskulärt problem. 
 
 
         30 min - 300 kr (boka ej om det är din första gång hos mig)
@@ -81,14 +79,11 @@ pricing:
     one of our monthly subscription plans to receive great coffee at your
     doorstep each month. Contact us about more details and payment info.
   plans:
-    - description: >
-        Behandlande Medicinsk Massage. 
-        Djupgående massage med syfte att hjälpa vid muskulärt problem.   
+    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
       items:
-        - 30 min - 300 kr (boka ej om det är din första gång hos mig)
-        - 45 min - 400 kr
-        - 90 min - 700 kr
-        - 120 min - 950 kr
+        - 3 lbs of coffee per month
+        - Green or roasted beans"
+        - One or two varieties of beans"
       plan: Small
       price: "50"
     - description: Great for avid drinkers, java-loving couples and bigger crowds
@@ -104,12 +99,5 @@ pricing:
         - Green or roasted beans
         - Unlimited varieties
       plan: Custom
-      price: ??
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom2
       price: ??
 ---
