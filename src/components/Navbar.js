@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
 import logo from "../img/linneas-lustgard-logo.jpg";
+import facebook from "../img/social/facebook.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -69,11 +70,17 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/products">
                 Behandlingar
               </Link>
+              <Link className="navbar-item" to="/hlr">
+                HLR-instruktör
+              </Link>
+              <Link className="navbar-item" to="/workshops">
+                Workshops
+              </Link>
               <Link className="navbar-item" to="/blog">
                 Blogg
               </Link>
               <Link className="navbar-item" to="/contact">
-                Contact
+                Kontakt
               </Link>
               <Link className="navbar-item" to="/contact/examples">
                 Form Examples
@@ -90,6 +97,18 @@ const Navbar = class extends React.Component {
                   <img src={github} alt="Github" />
                 </span>
               </a>
+              <a 
+               className="navbar-item"
+               target="_blank"
+                rel="noopener noreferrer"
+               title="facebook" href="https://www.facebook.com/linneaslustgard/">
+                  <span className="icon">
+                    <img
+                      src={facebook}
+                      alt="Facebook"
+                    />
+                  </span>
+                </a>
             </div>
           </div>
         </div>

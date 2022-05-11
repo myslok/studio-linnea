@@ -10,7 +10,7 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
-export const ProductPageTemplate = ({
+export const WorkshopPageTemplate = ({
   image,
   title,
   heading,
@@ -80,7 +80,7 @@ export const ProductPageTemplate = ({
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
-            <div className="columns is-multiline">
+            <div className="columns">
               <div className="column is-10 is-offset-1">
                 <h2 className="has-text-weight-semibold is-size-2">
                   {pricing.heading}
@@ -96,7 +96,7 @@ export const ProductPageTemplate = ({
   );
 };
 
-ProductPageTemplate.propTypes = {
+WorkshopPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -120,12 +120,12 @@ ProductPageTemplate.propTypes = {
   }),
 };
 
-const ProductPage = ({ data }) => {
+const WorkshopPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <WorkshopPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -140,7 +140,7 @@ const ProductPage = ({ data }) => {
   );
 };
 
-ProductPage.propTypes = {
+WorkshopPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -148,10 +148,10 @@ ProductPage.propTypes = {
   }),
 };
 
-export default ProductPage;
+export default WorkshopPage;
 
-export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+export const workshopPageQuery = graphql`
+  query WorkshopPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
