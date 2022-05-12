@@ -1,7 +1,7 @@
 ---
 templateKey: workshop-page
 title: Workshops
-image: /img/jumbotron.jpg
+image: /img/cat_field.jpg
 heading: workshop
 path: /workshops
 description: Vill du hitta på något kul tillsammans men ditt kompisgäng,

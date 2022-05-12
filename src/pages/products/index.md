@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Behandlingar
-image: /img/jumbotron.jpg
+image: /img/cat_field.jpg
 heading: Massage
 path: /products
 description: Jag _erbjuder_ behandlande medicinsk massage och djupgående
