@@ -39,7 +39,10 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <h1>Besöksadress</h1>
+              <p>Svalegatan 9A</p>
+              <p>268 31 svalöv</p>
+              <h1>Kontakta mig</h1>
               <form
                 name="contact"
                 method="post"

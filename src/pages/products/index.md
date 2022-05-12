@@ -4,8 +4,9 @@ title: Behandlingar
 image: /img/cat_field.jpg
 heading: Massage
 path: /products
-description: Jag _erbjuder_ behandlande medicinsk massage och djupgående
-  aromamassage. OBS! Då jag studerar till certifierad medicinsk massageterapeut
+description: Jag erbjuder behandlande medicinsk massage och djupgående
+  aromamassage. 
+note: OBS! Då jag studerar till certifierad medicinsk massageterapeut
   så är det just nu elevbehandlingar med elevpriser.
 intro:
   blurbs:
@@ -91,12 +92,12 @@ pricing:
         - 120 min - 950 kr
       plan: Behandlande Medicinsk Massage. 
       price: "50"
-    - description: Great for avid drinkers, java-loving couples and bigger crowds
+    - description: 
+        Efter en ordentlig konsultation får du tillsammans med mig skapa din egna massageolja med eteriska oljor efter vad precis du behöver. Sen använder jag oljan i en djupgående massage och efteråt får du med dig flaskan hem så att du kan fortsätta använda den hemma. 
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
+        - Första besöket 120 min - 1200 kr 
+        - Nästkommande besök 75 min - 850 kr
+      plan: Djupgående Aromamassage. 
       price: "80"
     - description: Want a few tiny batches from different varieties? Try our custom plan
       items:

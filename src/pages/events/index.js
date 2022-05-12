@@ -22,7 +22,7 @@ export default class EventIndexPage extends React.Component {
               padding: "1rem",
             }}
           >
-            Mina Event
+            Mina evenemang
           </h1>
         </div>
         <section className="section">

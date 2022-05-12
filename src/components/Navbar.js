@@ -81,7 +81,7 @@ const Navbar = class extends React.Component {
                 Blogg
               </Link>
               <Link className="navbar-item" to="/events">
-                Event
+                Evenemang
               </Link>
               <Link className="navbar-item" to="/contact">
                 Kontakt

@@ -14,6 +14,7 @@ export const ProductPageTemplate = ({
   image,
   title,
   heading,
+  note,
   description,
   intro,
   main,
@@ -31,15 +32,29 @@ export const ProductPageTemplate = ({
         <div className="container">
           <div className="section">
             <div className="columns">
-              <div className="column is-7 is-offset-1">
+              <div className="column is-10 is-offset-1">
                 <h3 className="has-text-weight-semibold is-size-2">
                   {heading}
                 </h3>
                 <p>{description}</p>
               </div>
             </div>
+            {note != "" && <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div class="notification is-info is-light">
+                  {note}
+                </div>
+              </div>
+            </div>
+            }
             <div className="columns">
               <div className="column is-10 is-offset-1">
+                <Pricing data={pricing.plans} />
+              </div>
+            </div>
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+
                 <Features gridItems={intro.blurbs} /> 
                 <div className="columns">
                   <div className="column is-7">
@@ -99,6 +114,7 @@ export const ProductPageTemplate = ({
 ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
+  note: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -128,6 +144,7 @@ const ProductPage = ({ data }) => {
       <ProductPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
+        note={frontmatter.note}
         heading={frontmatter.heading}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -162,6 +179,7 @@ export const productPageQuery = graphql`
         }
         heading
         description
+        note
         intro {
           blurbs {
             image {
