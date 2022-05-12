@@ -1,7 +1,7 @@
 ---
 templateKey: workshop-page
 title: HLR-instruktör
-image: /img/jumbotron.jpg
+image: /img/cat_field.jpg
 heading: HLR-instruktör
 path: /hlr
 description: HLR-instruktör

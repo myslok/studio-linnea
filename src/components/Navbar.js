@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
 import logo from "../img/linneas-lustgard-logo.jpg";
 import facebook from "../img/social/facebook.svg";
+import instagram from "../img/social/instagram.svg";
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -70,11 +71,11 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/products">
                 Behandlingar
               </Link>
-              <Link className="navbar-item" to="/hlr">
-                HLR-instruktör
-              </Link>
               <Link className="navbar-item" to="/workshops">
                 Workshops
+              </Link>
+              <Link className="navbar-item" to="/hlr">
+                HLR-instruktör
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blogg
@@ -90,16 +91,18 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
+              <a 
+               className="navbar-item"
+               target="_blank"
                 rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
+               title="instagram" href="https://www.instagram.com/linneas_lustgard">
+                  <span className="icon">
+                    <img
+                      src={instagram}
+                      alt="Instagram"
+                    />
+                  </span>
+                </a>
               <a 
                className="navbar-item"
                target="_blank"

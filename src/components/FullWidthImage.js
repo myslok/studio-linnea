@@ -18,6 +18,7 @@ export default function FullWidthImage(props) {
         style={{
           display: "grid",
           alignItems: "center",
+          fontFamily: "very-berry"
         }}
       >
         {img?.url ? (
@@ -69,7 +70,7 @@ export default function FullWidthImage(props) {
             {/* Any content here will be centered in the component */}
             {title && (
               <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
                   boxShadow:
                     "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
@@ -84,7 +85,7 @@ export default function FullWidthImage(props) {
             )}
             {subheading && (
               <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                 style={{
                   boxShadow:
                     "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
