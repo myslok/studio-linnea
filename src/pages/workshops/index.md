@@ -2,33 +2,18 @@
 templateKey: workshop-page
 title: Workshops
 image: /img/jumbotron.jpg
-heading: Massage
+heading: workshop
 path: /workshops
-description: Workshops list
+description: Vill du hitta på något kul tillsammans men ditt kompisgäng,
+  planerar du en möhippa, är det dags för en after work på jobbet eller vill du
+  lära dig något nytt? Boka mig för en workshop och så gör vi dagen oförglömlig
+  tillsammans.  Kontakta mig för en offert.
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: |+
-        Behandlande Medicinsk Massage. 
-        Djupgående massage med syfte att hjälpa vid muskulärt problem. 
-
-
-        30 min - 300 kr (boka ej om det är din första gång hos mig)
-        45 min - 400 kr
-        90 min - 700 kr
-        120 min - 950 kr
-
-
+      text: Salvtillverkning
     - image: /img/coffee-gear.png
-      text: >-
-        Djupgående Aromamassage. 
-
-        Efter en ordentlig konsultation får du tillsammans med mig skapa din egna massageolja med eteriska oljor efter vad precis du behöver. Sen använder jag oljan i en djupgående massage och efteråt får du med dig flaskan hem så att du kan fortsätta använda den hemma. 
-
-
-        Första besöket 120 min - 1200 kr 
-
-        Nästkommande besök 75 min - 850 kr
+      text: Doftkväll
     - image: /img/tutorials.png
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
@@ -43,12 +28,11 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: massage
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  heading: workshop
+  description: Vill du hitta på något kul tillsammans men ditt kompisgäng,
+    planerar du en möhippa, är det dags för en after work på jobbet eller vill
+    du lära dig något nytt? Boka mig för en workshop och så gör vi dagen
+    oförglömlig tillsammans.  Kontakta mig för en offert.
 main:
   heading: Great coffee with no compromises
   description: >
