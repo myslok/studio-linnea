@@ -4,7 +4,7 @@ title: HLR-instruktör
 image: /img/cat_field.jpg
 heading: HLR-instruktör
 path: /hlr
-description: HLR-instruktör
+description: "Kanske livets viktigaste utbildning. "
 intro:
   blurbs:
     - image: /img/coffee.png
