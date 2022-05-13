@@ -3,7 +3,7 @@ templateKey: index-page
 title: Massage - Örter - Kreativitet
 image: /img/dsc_0413_14.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Linneas Lustgård
 mainpitch:
   title: Why Kaldi
   description: >
