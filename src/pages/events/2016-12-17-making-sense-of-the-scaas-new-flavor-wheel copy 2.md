@@ -11,9 +11,13 @@ description: >-
   möjlighet att dela era upplevelser med gruppen. 
 
   Det blir en kväll av avslappning, närvaro och kroppsliga förnimmelser.
+location: Svalegatan 9A, Svalöv
 featuredpost: true
 featuredimage: /img/flavor_wheel.jpg
-tags: []
+tags:
+  - meditation
+  - massage
+  - workshop
 ---
 ![](/img/flavor_wheel.jpg)
 
