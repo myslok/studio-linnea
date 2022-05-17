@@ -39,7 +39,7 @@ export const ProductPageTemplate = ({
                 <p>{description}</p>
               </div>
             </div>
-            {note != "" && <div className="columns">
+            {note !== "" && <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div class="notification is-info is-light">
                   {note}
